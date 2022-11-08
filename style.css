@@ -1,0 +1,96 @@
+:root{
+    --padrao1:#f5f5f5;
+    --padrao:#000000;
+    --nome:'ispiration', cursive;
+    --corpo:'montserrar', sams-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(./body.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #f8e8e8;
+}
+.box-top img{
+    height: 100%;
+    width: 100%;
+    border-radius: 0px 0px 1px 1px;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.comunidade{
+    margin-top: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.comunidade img{
+    width: 20%;
+}
+.hs{
+    font-size: bold;
+    font-size: 12px;
+}
+.hs h4{
+    font-size: 15px;
+    color: #4d4c4c;
+}
+
+.icones img{
+    width: 4rem;
+    margin: 1.5rem;
+}
+.icones img:active{
+    width: 2.7rem;
+    margin: 1.3rem;
+}
+
+.links-box {
+  text-transform: uppercase;
+}
+.links-box ul{
+    list-style: none;
+    
+}
+.links-box li {
+   background-color: #f0ebeb;
+   margin-top: 15px;
+   padding: 25px;
+   width: 20rem;
+   border-radius: 13px 1px 13px 1px;
+   box-shadow: 5px 10px 8px #525151;
+   text-align: center;
+}
+.links-box li:active{
+    background-color: #dfd3d3;
+    color: #fff;
+}
+.rodape{
+    height: 3rem;
+    width: 100%;
+    background-color: #f1dede;
+    padding: 30px;
+    margin-top: 2rem;
+    
+}
+.rodape p{
+   text-align: center;
+   color: #373636;
+}
